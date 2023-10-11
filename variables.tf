@@ -12,7 +12,7 @@ variable "instance_name" {
 }
 
 variable "instance_type" {
-        default = "t4g.micro"
+        default = "t4g.xlarge"
 }
 
 variable "subnet_id" {
