@@ -12,7 +12,7 @@ variable "instance_name" {
 }
 
 variable "instance_type" {
-        default = "r6i.large"
+        default = "m6g.large"
 }
 
 variable "subnet_id" {
@@ -27,7 +27,7 @@ variable "ami_id" {
 
 variable "number_of_instances" {
         description = "number of instances to be created"
-        default = 2
+        default = 3
 }
 
 
