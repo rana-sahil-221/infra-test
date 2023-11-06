@@ -12,7 +12,7 @@ variable "instance_name" {
 }
 
 variable "instance_type" {
-        default = "m6a.24xlarge"
+        default = "m6g.large"
 }
 
 variable "subnet_id" {
